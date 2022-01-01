@@ -1,0 +1,10 @@
+name: FloodAlarm
+version: '${project.version}'
+main: me.cobble.floodalarm.FloodAlarm
+api-version: 1.17
+depend: [ NoteBlockAPI ]
+commands:
+  alarm:
+    description: Triggers the flood alarm
+  flood:
+    description: Floods
