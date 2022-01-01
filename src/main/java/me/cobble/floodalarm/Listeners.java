@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Listeners implements Listener {
 
     public ArrayList<String> accounts = new ArrayList<>();
-    private FloodAlarm plugin;
+    private final FloodAlarm plugin;
 
     public Listeners(FloodAlarm plugin) {
         this.plugin = plugin;
